@@ -1,4 +1,4 @@
-# datafun-04-notebooks
+# Notebooks
 
 [![Workflow Guide](https://img.shields.io/badge/Pro--Guide-pro--analytics--02-green)](https://denisecase.github.io/pro-analytics-02/workflow-b-apply-example-project/)
 [![Python 3.14](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](./pyproject.toml)
@@ -88,7 +88,7 @@ open a machine terminal in your `Repos` folder:
 
 ```shell
 # Replace username with YOUR GitHub username.
-git clone https://github.com/username/datafun-04-notebooks
+git clone https://github.com/justicetefera/datafun-04-notebooks
 
 cd datafun-04-notebooks
 code .
@@ -98,7 +98,7 @@ code .
 
 These are listed for convenience.
 For best results, follow the detailed instructions in
-[pro-analytics-02 guide](https://denisecase.github.io/pro-analytics-02/)
+[pro-analytics-02 guide](https://justicetefera.github.io/datafun-04-notebooks/)
 to complete:
 
 ```shell
