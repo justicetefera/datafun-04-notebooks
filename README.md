@@ -41,8 +41,7 @@ You'll work with just these areas:
 ## Instructions (pro-analytics-02)
 
 Follow the
-[step-by-step workflow guide][step-by-step workflow guide](https://justicetefera.github.io/datafun-04-notebooks/)](https://justicetefera.github.io/datafun-04-notebooks/)workflow-b-apply-example-project/)
-
+[step-by-step workflow guide][step-by-step workflow guide](https://justicetefera.github.io/datafun-04-notebooks/)
 to complete:
 
 1. Phase 1. **Start & Run**
