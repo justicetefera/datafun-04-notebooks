@@ -23,7 +23,8 @@ dependencies = [
     "pandas",
     # "scikit-learn",
     "seaborn",
-    "matplotlib"
+    "matplotlib",
+    "notebook>=7.5.6",
 ]
 
 
