@@ -44,8 +44,6 @@ The dataset includes the following fields:
 
 
 ## Visualizations
-![Correlation Heatmap](../../notebooks/docs/visuals/correlation_heatmap.png)
-
-![Distribution of Sale Amount](../../notebooks/docs/visuals/distribution_saleamount.png)
-
-![SaleAmount vs ProductID](../../notebooks/docs/visuals/saleamount_vs_productid.png)
+![Correlation Heatmap](../../notebooks/docs/images/correlation_heatmap.png)
+![Distribution of Sale Amount](../../notebooks/docs/images/distribution_saleamount.png)
+![SaleAmount vs ProductID](../../notebooks/docs/images/saleamount_vs_productid.png)

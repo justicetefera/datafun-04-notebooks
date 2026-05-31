@@ -47,6 +47,8 @@ Overall, it serves as a model for how to explore, document, and communicate find
 
 
 ## Success
+# Project log output
+![Project Log Output](notebooks/docs/images/project_log_output.png)
 
 
 ```
