@@ -65,37 +65,20 @@ Overall, it serves as a model for how to explore, document, and communicate find
 
 ## Example Output
 
-2026-05-31 08:13:42,024 INFO ***** Notebook Execution Started Successfully *****
-2026-05-31 08:13:42,149 INFO Notebook execution started.
-2026-05-31 08:13:42,152 INFO Imported pandas, seaborn, matplotlib, and set visualization theme.
-2026-05-31 08:13:42,183 INFO Notebook execution started.
-2026-05-31 08:13:42,185 INFO Imported pandas, seaborn, matplotlib, and set visualization theme.
-2026-05-31 08:13:42,226 INFO Loaded dataset from ../data/raw/sales_data.csv
-2026-05-31 08:13:42,265 INFO Inspected DataFrame structure: shape, columns, dtypes, missing values, info, and preview.
-2026-05-31 08:13:42,313 INFO Cleaned dataset: converted SaleAmount to numeric, fixed CampaignID blanks, standardized CampaignID type, and converted SaleDate to datetime.
-2026-05-31 08:13:42,381 INFO Computed total sales by store using groupby and sorted results.
-2026-05-31 08:13:42,414 INFO Computed average sale amount by product using groupby and sorted results.
-2026-05-31 08:13:42,453 INFO Computed total sales by month: extracted SaleMonth period and aggregated SaleAmount.
-2026-05-31 08:13:42,530 INFO Computed numeric-only correlation matrix for the dataset.
-2026-05-31 08:13:43,140 INFO Generated and saved correlation_heatmap.png
-2026-05-31 08:13:43,314 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-2026-05-31 08:13:43,328 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-2026-05-31 08:13:43,585 INFO Generated and saved total_sales_by_store.png
-2026-05-31 08:13:44,100 INFO Generated and saved distribution_saleamount.png
-2026-05-31 08:13:44,810 INFO Generated and saved saleamount_vs_productid.png
-2026-05-31 08:13:45,491 INFO Generated and saved saleamount_vs_storeid.png
-2026-05-31 08:13:45,624 INFO Printed final insights and conclusions for the analysis.
-2026-05-31 08:13:45,659 INFO Added final summary markdown section to the notebook.
-2026-05-31 08:13:45,694 INFO Added business recommendations markdown section to the notebook.
-2026-05-31 08:13:45,728 INFO ***** Notebook Executed Successfully *****
+
 
 ## Visualizations
 
+## Findings and Visuals
+
 ### 🔹 Correlation Heatmap
+
 ![Correlation Heatmap](notebooks/docs/correlation_heatmap.png)
 
 ### 🔹 Distribution of SaleAmount
+
 ![Distribution of SaleAmount](notebooks/docs/distribution_saleamount.png)
 
 ### 🔹 SaleAmount vs ProductID
+
 ![SaleAmount vs ProductID](notebooks/docs/saleamount_vs_productid.png)
