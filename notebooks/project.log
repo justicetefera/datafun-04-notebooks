@@ -1,0 +1,369 @@
+2026-05-31 07:10:14,455 INFO Notebook execution started.
+2026-05-31 07:10:47,813 INFO Notebook execution started.
+2026-05-31 07:10:49,192 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 07:10:49,207 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 07:15:38,081 INFO Loaded dataset from sales_data.csv
+2026-05-31 07:29:17,699 INFO Notebook execution started.
+2026-05-31 07:29:17,703 INFO Imported pandas, seaborn, matplotlib, and set visualization theme.
+2026-05-31 07:29:28,511 INFO Notebook execution started.
+2026-05-31 07:29:28,514 INFO Imported pandas, seaborn, matplotlib, and set visualization theme.
+2026-05-31 07:29:31,875 INFO Notebook execution started.
+2026-05-31 07:29:31,876 INFO Imported pandas, seaborn, matplotlib, and set visualization theme.
+2026-05-31 07:29:36,850 INFO Loaded dataset from ../data/raw/sales_data.csv
+2026-05-31 07:29:41,921 INFO Inspected DataFrame structure: shape, columns, dtypes, missing values, info, and preview.
+2026-05-31 07:29:48,151 INFO Cleaned dataset: converted SaleAmount to numeric, fixed CampaignID blanks, standardized CampaignID type, and converted SaleDate to datetime.
+2026-05-31 07:30:00,905 INFO Computed total sales by store using groupby and sorted results.
+2026-05-31 07:30:05,065 INFO Computed average sale amount by product using groupby and sorted results.
+2026-05-31 07:30:09,899 INFO Computed total sales by month: extracted SaleMonth period and aggregated SaleAmount.
+2026-05-31 07:30:14,322 INFO Computed numeric-only correlation matrix for the dataset.
+2026-05-31 07:30:17,189 INFO Computed numeric-only correlation matrix for the dataset.
+2026-05-31 07:30:23,769 INFO Generated and saved correlation_heatmap.png
+2026-05-31 07:30:33,169 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 07:30:33,178 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 07:30:33,456 INFO Generated and saved total_sales_by_store.png
+2026-05-31 07:30:43,601 INFO Generated and saved distribution_saleamount.png
+2026-05-31 07:30:49,837 INFO Generated and saved saleamount_vs_productid.png
+2026-05-31 07:30:58,607 INFO Generated and saved saleamount_vs_storeid.png
+2026-05-31 07:31:04,486 INFO Printed final insights and conclusions for the analysis.
+2026-05-31 07:31:15,258 INFO Added final summary markdown section to the notebook.
+2026-05-31 07:31:19,834 INFO Added final summary markdown section to the notebook.
+2026-05-31 07:31:26,798 INFO Added business recommendations markdown section to the notebook.
+2026-05-31 08:02:29,479 INFO Notebook executed successfully.
+2026-05-31 08:03:48,388 INFO ***** Notebook executed successfully *****
+2026-05-31 08:04:07,736 INFO Notebook execution started.
+2026-05-31 08:04:07,742 INFO Imported pandas, seaborn, matplotlib, and set visualization theme.
+2026-05-31 08:04:07,812 INFO Notebook execution started.
+2026-05-31 08:04:07,814 INFO Imported pandas, seaborn, matplotlib, and set visualization theme.
+2026-05-31 08:04:07,858 INFO Loaded dataset from ../data/raw/sales_data.csv
+2026-05-31 08:04:07,912 INFO Inspected DataFrame structure: shape, columns, dtypes, missing values, info, and preview.
+2026-05-31 08:04:07,944 INFO Cleaned dataset: converted SaleAmount to numeric, fixed CampaignID blanks, standardized CampaignID type, and converted SaleDate to datetime.
+2026-05-31 08:04:08,111 INFO Computed total sales by store using groupby and sorted results.
+2026-05-31 08:04:08,157 INFO Computed average sale amount by product using groupby and sorted results.
+2026-05-31 08:04:08,193 INFO Computed total sales by month: extracted SaleMonth period and aggregated SaleAmount.
+2026-05-31 08:04:08,226 INFO Computed numeric-only correlation matrix for the dataset.
+2026-05-31 08:04:08,764 INFO Generated and saved correlation_heatmap.png
+2026-05-31 08:04:08,940 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 08:04:08,953 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 08:04:09,189 INFO Generated and saved total_sales_by_store.png
+2026-05-31 08:04:09,611 INFO Generated and saved distribution_saleamount.png
+2026-05-31 08:04:10,260 INFO Generated and saved saleamount_vs_productid.png
+2026-05-31 08:04:10,928 INFO Generated and saved saleamount_vs_storeid.png
+2026-05-31 08:04:11,058 INFO Printed final insights and conclusions for the analysis.
+2026-05-31 08:04:11,098 INFO Added final summary markdown section to the notebook.
+2026-05-31 08:04:11,133 INFO Added business recommendations markdown section to the notebook.
+2026-05-31 08:04:11,168 INFO ***** Notebook executed successfully *****
+2026-05-31 08:07:05,400 INFO ***** Notebook started successfully *****
+2026-05-31 08:07:09,844 INFO ***** Notebook started successfully *****
+2026-05-31 08:07:09,882 INFO Notebook execution started.
+2026-05-31 08:07:09,884 INFO Imported pandas, seaborn, matplotlib, and set visualization theme.
+2026-05-31 08:07:09,917 INFO Notebook execution started.
+2026-05-31 08:07:09,920 INFO Imported pandas, seaborn, matplotlib, and set visualization theme.
+2026-05-31 08:07:09,970 INFO Loaded dataset from ../data/raw/sales_data.csv
+2026-05-31 08:07:10,016 INFO Inspected DataFrame structure: shape, columns, dtypes, missing values, info, and preview.
+2026-05-31 08:07:10,067 INFO Cleaned dataset: converted SaleAmount to numeric, fixed CampaignID blanks, standardized CampaignID type, and converted SaleDate to datetime.
+2026-05-31 08:07:10,147 INFO Computed total sales by store using groupby and sorted results.
+2026-05-31 08:07:10,228 INFO Computed average sale amount by product using groupby and sorted results.
+2026-05-31 08:07:10,263 INFO Computed total sales by month: extracted SaleMonth period and aggregated SaleAmount.
+2026-05-31 08:07:10,297 INFO Computed numeric-only correlation matrix for the dataset.
+2026-05-31 08:07:11,075 INFO Generated and saved correlation_heatmap.png
+2026-05-31 08:07:11,333 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 08:07:11,359 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 08:07:11,641 INFO Generated and saved total_sales_by_store.png
+2026-05-31 08:07:12,177 INFO Generated and saved distribution_saleamount.png
+2026-05-31 08:07:12,856 INFO Generated and saved saleamount_vs_productid.png
+2026-05-31 08:07:13,518 INFO Generated and saved saleamount_vs_storeid.png
+2026-05-31 08:07:13,658 INFO Printed final insights and conclusions for the analysis.
+2026-05-31 08:07:13,698 INFO Added final summary markdown section to the notebook.
+2026-05-31 08:07:13,733 INFO Added business recommendations markdown section to the notebook.
+2026-05-31 08:07:13,812 INFO ***** Notebook executed successfully *****
+2026-05-31 08:07:31,273 INFO ***** Notebook started successfully *****
+2026-05-31 08:07:31,342 INFO Notebook execution started.
+2026-05-31 08:07:31,345 INFO Imported pandas, seaborn, matplotlib, and set visualization theme.
+2026-05-31 08:07:31,378 INFO Notebook execution started.
+2026-05-31 08:07:31,379 INFO Imported pandas, seaborn, matplotlib, and set visualization theme.
+2026-05-31 08:07:31,415 INFO Loaded dataset from ../data/raw/sales_data.csv
+2026-05-31 08:07:31,459 INFO Inspected DataFrame structure: shape, columns, dtypes, missing values, info, and preview.
+2026-05-31 08:07:31,502 INFO Cleaned dataset: converted SaleAmount to numeric, fixed CampaignID blanks, standardized CampaignID type, and converted SaleDate to datetime.
+2026-05-31 08:07:31,573 INFO Computed total sales by store using groupby and sorted results.
+2026-05-31 08:07:31,608 INFO Computed average sale amount by product using groupby and sorted results.
+2026-05-31 08:07:31,743 INFO Computed total sales by month: extracted SaleMonth period and aggregated SaleAmount.
+2026-05-31 08:07:31,785 INFO Computed numeric-only correlation matrix for the dataset.
+2026-05-31 08:07:32,345 INFO Generated and saved correlation_heatmap.png
+2026-05-31 08:07:32,516 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 08:07:32,527 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 08:07:32,759 INFO Generated and saved total_sales_by_store.png
+2026-05-31 08:07:33,265 INFO Generated and saved distribution_saleamount.png
+2026-05-31 08:07:33,963 INFO Generated and saved saleamount_vs_productid.png
+2026-05-31 08:07:34,590 INFO Generated and saved saleamount_vs_storeid.png
+2026-05-31 08:07:34,719 INFO Printed final insights and conclusions for the analysis.
+2026-05-31 08:07:34,823 INFO Added final summary markdown section to the notebook.
+2026-05-31 08:07:34,903 INFO Added business recommendations markdown section to the notebook.
+2026-05-31 08:07:34,938 INFO ***** Notebook executed successfully *****
+2026-05-31 08:10:01,766 INFO ***** Notebook Execution started successfully *****
+2026-05-31 08:11:01,394 INFO ***** Notebook Execution Started Successfully *****
+2026-05-31 08:11:01,460 INFO Notebook execution started.
+2026-05-31 08:11:01,462 INFO Imported pandas, seaborn, matplotlib, and set visualization theme.
+2026-05-31 08:11:01,495 INFO Notebook execution started.
+2026-05-31 08:11:01,496 INFO Imported pandas, seaborn, matplotlib, and set visualization theme.
+2026-05-31 08:11:01,535 INFO Loaded dataset from ../data/raw/sales_data.csv
+2026-05-31 08:11:01,588 INFO Inspected DataFrame structure: shape, columns, dtypes, missing values, info, and preview.
+2026-05-31 08:11:01,625 INFO Cleaned dataset: converted SaleAmount to numeric, fixed CampaignID blanks, standardized CampaignID type, and converted SaleDate to datetime.
+2026-05-31 08:11:01,793 INFO Computed total sales by store using groupby and sorted results.
+2026-05-31 08:11:01,829 INFO Computed average sale amount by product using groupby and sorted results.
+2026-05-31 08:11:01,865 INFO Computed total sales by month: extracted SaleMonth period and aggregated SaleAmount.
+2026-05-31 08:11:01,898 INFO Computed numeric-only correlation matrix for the dataset.
+2026-05-31 08:11:02,491 INFO Generated and saved correlation_heatmap.png
+2026-05-31 08:11:02,663 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 08:11:02,673 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 08:11:02,913 INFO Generated and saved total_sales_by_store.png
+2026-05-31 08:11:03,356 INFO Generated and saved distribution_saleamount.png
+2026-05-31 08:11:04,002 INFO Generated and saved saleamount_vs_productid.png
+2026-05-31 08:11:04,645 INFO Generated and saved saleamount_vs_storeid.png
+2026-05-31 08:11:04,776 INFO Printed final insights and conclusions for the analysis.
+2026-05-31 08:11:04,871 INFO Added final summary markdown section to the notebook.
+2026-05-31 08:11:04,950 INFO Added business recommendations markdown section to the notebook.
+2026-05-31 08:11:04,985 INFO ***** Notebook Executed Successfully *****
+2026-05-31 08:11:41,399 INFO ***** Notebook Executed Successfully *****
+2026-05-31 08:11:48,300 INFO ***** Notebook Execution Started Successfully *****
+2026-05-31 08:11:48,378 INFO Notebook execution started.
+2026-05-31 08:11:48,381 INFO Imported pandas, seaborn, matplotlib, and set visualization theme.
+2026-05-31 08:11:48,413 INFO Notebook execution started.
+2026-05-31 08:11:48,415 INFO Imported pandas, seaborn, matplotlib, and set visualization theme.
+2026-05-31 08:11:48,453 INFO Loaded dataset from ../data/raw/sales_data.csv
+2026-05-31 08:11:48,491 INFO Inspected DataFrame structure: shape, columns, dtypes, missing values, info, and preview.
+2026-05-31 08:11:48,532 INFO Cleaned dataset: converted SaleAmount to numeric, fixed CampaignID blanks, standardized CampaignID type, and converted SaleDate to datetime.
+2026-05-31 08:11:48,643 INFO Computed total sales by store using groupby and sorted results.
+2026-05-31 08:11:48,677 INFO Computed average sale amount by product using groupby and sorted results.
+2026-05-31 08:11:48,715 INFO Computed total sales by month: extracted SaleMonth period and aggregated SaleAmount.
+2026-05-31 08:11:48,749 INFO Computed numeric-only correlation matrix for the dataset.
+2026-05-31 08:11:49,314 INFO Generated and saved correlation_heatmap.png
+2026-05-31 08:11:49,486 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 08:11:49,498 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 08:11:49,731 INFO Generated and saved total_sales_by_store.png
+2026-05-31 08:11:50,155 INFO Generated and saved distribution_saleamount.png
+2026-05-31 08:11:50,865 INFO Generated and saved saleamount_vs_productid.png
+2026-05-31 08:11:51,491 INFO Generated and saved saleamount_vs_storeid.png
+2026-05-31 08:11:51,621 INFO Printed final insights and conclusions for the analysis.
+2026-05-31 08:11:51,709 INFO Added final summary markdown section to the notebook.
+2026-05-31 08:11:51,821 INFO Added business recommendations markdown section to the notebook.
+2026-05-31 08:11:51,911 INFO ***** Notebook Executed Successfully *****
+2026-05-31 08:12:52,446 INFO ***** Notebook Execution Started Successfully *****
+2026-05-31 08:12:52,512 INFO Notebook execution started.
+2026-05-31 08:12:52,514 INFO Imported pandas, seaborn, matplotlib, and set visualization theme.
+2026-05-31 08:12:52,547 INFO Notebook execution started.
+2026-05-31 08:12:52,549 INFO Imported pandas, seaborn, matplotlib, and set visualization theme.
+2026-05-31 08:12:52,586 INFO Loaded dataset from ../data/raw/sales_data.csv
+2026-05-31 08:12:52,625 INFO Inspected DataFrame structure: shape, columns, dtypes, missing values, info, and preview.
+2026-05-31 08:12:52,751 INFO Cleaned dataset: converted SaleAmount to numeric, fixed CampaignID blanks, standardized CampaignID type, and converted SaleDate to datetime.
+2026-05-31 08:12:52,883 INFO Computed total sales by store using groupby and sorted results.
+2026-05-31 08:12:52,913 INFO Computed average sale amount by product using groupby and sorted results.
+2026-05-31 08:12:52,949 INFO Computed total sales by month: extracted SaleMonth period and aggregated SaleAmount.
+2026-05-31 08:12:52,982 INFO Computed numeric-only correlation matrix for the dataset.
+2026-05-31 08:12:53,513 INFO Generated and saved correlation_heatmap.png
+2026-05-31 08:12:53,683 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 08:12:53,693 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 08:12:53,929 INFO Generated and saved total_sales_by_store.png
+2026-05-31 08:12:54,357 INFO Generated and saved distribution_saleamount.png
+2026-05-31 08:12:55,414 INFO Generated and saved saleamount_vs_productid.png
+2026-05-31 08:12:56,100 INFO Generated and saved saleamount_vs_storeid.png
+2026-05-31 08:12:56,231 INFO Printed final insights and conclusions for the analysis.
+2026-05-31 08:12:56,290 INFO Added final summary markdown section to the notebook.
+2026-05-31 08:12:56,324 INFO Added business recommendations markdown section to the notebook.
+2026-05-31 08:12:56,360 INFO ***** Notebook Executed Successfully *****
+2026-05-31 08:13:18,373 INFO ***** Notebook Execution Started Successfully *****
+2026-05-31 08:13:18,437 INFO Notebook execution started.
+2026-05-31 08:13:18,440 INFO Imported pandas, seaborn, matplotlib, and set visualization theme.
+2026-05-31 08:13:18,472 INFO Notebook execution started.
+2026-05-31 08:13:18,474 INFO Imported pandas, seaborn, matplotlib, and set visualization theme.
+2026-05-31 08:13:18,511 INFO Loaded dataset from ../data/raw/sales_data.csv
+2026-05-31 08:13:18,553 INFO Inspected DataFrame structure: shape, columns, dtypes, missing values, info, and preview.
+2026-05-31 08:13:18,596 INFO Cleaned dataset: converted SaleAmount to numeric, fixed CampaignID blanks, standardized CampaignID type, and converted SaleDate to datetime.
+2026-05-31 08:13:18,691 INFO Computed total sales by store using groupby and sorted results.
+2026-05-31 08:13:18,738 INFO Computed average sale amount by product using groupby and sorted results.
+2026-05-31 08:13:18,774 INFO Computed total sales by month: extracted SaleMonth period and aggregated SaleAmount.
+2026-05-31 08:13:18,806 INFO Computed numeric-only correlation matrix for the dataset.
+2026-05-31 08:13:19,333 INFO Generated and saved correlation_heatmap.png
+2026-05-31 08:13:19,503 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 08:13:19,515 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 08:13:19,748 INFO Generated and saved total_sales_by_store.png
+2026-05-31 08:13:20,217 INFO Generated and saved distribution_saleamount.png
+2026-05-31 08:13:20,854 INFO Generated and saved saleamount_vs_productid.png
+2026-05-31 08:13:21,502 INFO Generated and saved saleamount_vs_storeid.png
+2026-05-31 08:13:21,638 INFO Printed final insights and conclusions for the analysis.
+2026-05-31 08:13:21,708 INFO Added final summary markdown section to the notebook.
+2026-05-31 08:13:21,843 INFO Added business recommendations markdown section to the notebook.
+2026-05-31 08:13:21,879 INFO ***** Notebook Executed Successfully *****
+2026-05-31 08:13:26,791 INFO ***** Notebook Execution Started Successfully *****
+2026-05-31 08:13:26,864 INFO Notebook execution started.
+2026-05-31 08:13:26,866 INFO Imported pandas, seaborn, matplotlib, and set visualization theme.
+2026-05-31 08:13:26,899 INFO Notebook execution started.
+2026-05-31 08:13:26,901 INFO Imported pandas, seaborn, matplotlib, and set visualization theme.
+2026-05-31 08:13:26,940 INFO Loaded dataset from ../data/raw/sales_data.csv
+2026-05-31 08:13:26,989 INFO Inspected DataFrame structure: shape, columns, dtypes, missing values, info, and preview.
+2026-05-31 08:13:27,056 INFO Cleaned dataset: converted SaleAmount to numeric, fixed CampaignID blanks, standardized CampaignID type, and converted SaleDate to datetime.
+2026-05-31 08:13:27,144 INFO Computed total sales by store using groupby and sorted results.
+2026-05-31 08:13:27,177 INFO Computed average sale amount by product using groupby and sorted results.
+2026-05-31 08:13:27,259 INFO Computed total sales by month: extracted SaleMonth period and aggregated SaleAmount.
+2026-05-31 08:13:27,335 INFO Computed numeric-only correlation matrix for the dataset.
+2026-05-31 08:13:27,922 INFO Generated and saved correlation_heatmap.png
+2026-05-31 08:13:28,102 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 08:13:28,114 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 08:13:28,348 INFO Generated and saved total_sales_by_store.png
+2026-05-31 08:13:28,783 INFO Generated and saved distribution_saleamount.png
+2026-05-31 08:13:29,430 INFO Generated and saved saleamount_vs_productid.png
+2026-05-31 08:13:30,062 INFO Generated and saved saleamount_vs_storeid.png
+2026-05-31 08:13:30,191 INFO Printed final insights and conclusions for the analysis.
+2026-05-31 08:13:30,293 INFO Added final summary markdown section to the notebook.
+2026-05-31 08:13:30,328 INFO Added business recommendations markdown section to the notebook.
+2026-05-31 08:13:30,362 INFO ***** Notebook Executed Successfully *****
+2026-05-31 08:13:42,024 INFO ***** Notebook Execution Started Successfully *****
+2026-05-31 08:13:42,149 INFO Notebook execution started.
+2026-05-31 08:13:42,152 INFO Imported pandas, seaborn, matplotlib, and set visualization theme.
+2026-05-31 08:13:42,183 INFO Notebook execution started.
+2026-05-31 08:13:42,185 INFO Imported pandas, seaborn, matplotlib, and set visualization theme.
+2026-05-31 08:13:42,226 INFO Loaded dataset from ../data/raw/sales_data.csv
+2026-05-31 08:13:42,265 INFO Inspected DataFrame structure: shape, columns, dtypes, missing values, info, and preview.
+2026-05-31 08:13:42,313 INFO Cleaned dataset: converted SaleAmount to numeric, fixed CampaignID blanks, standardized CampaignID type, and converted SaleDate to datetime.
+2026-05-31 08:13:42,381 INFO Computed total sales by store using groupby and sorted results.
+2026-05-31 08:13:42,414 INFO Computed average sale amount by product using groupby and sorted results.
+2026-05-31 08:13:42,453 INFO Computed total sales by month: extracted SaleMonth period and aggregated SaleAmount.
+2026-05-31 08:13:42,530 INFO Computed numeric-only correlation matrix for the dataset.
+2026-05-31 08:13:43,140 INFO Generated and saved correlation_heatmap.png
+2026-05-31 08:13:43,314 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 08:13:43,328 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 08:13:43,585 INFO Generated and saved total_sales_by_store.png
+2026-05-31 08:13:44,100 INFO Generated and saved distribution_saleamount.png
+2026-05-31 08:13:44,810 INFO Generated and saved saleamount_vs_productid.png
+2026-05-31 08:13:45,491 INFO Generated and saved saleamount_vs_storeid.png
+2026-05-31 08:13:45,624 INFO Printed final insights and conclusions for the analysis.
+2026-05-31 08:13:45,659 INFO Added final summary markdown section to the notebook.
+2026-05-31 08:13:45,694 INFO Added business recommendations markdown section to the notebook.
+2026-05-31 08:13:45,728 INFO ***** Notebook Executed Successfully *****
+2026-05-31 09:06:32,857 INFO ***** Notebook Execution Started Successfully *****
+2026-05-31 09:06:32,892 INFO Notebook execution started.
+2026-05-31 09:06:32,911 INFO Imported pandas, seaborn, matplotlib, and set visualization theme.
+2026-05-31 09:06:32,926 INFO Notebook execution started.
+2026-05-31 09:06:32,928 INFO Imported pandas, seaborn, matplotlib, and set visualization theme.
+2026-05-31 09:06:32,981 INFO Loaded dataset from ../data/raw/sales_data.csv
+2026-05-31 09:06:33,065 INFO Inspected DataFrame structure: shape, columns, dtypes, missing values, info, and preview.
+2026-05-31 09:06:33,115 INFO Cleaned dataset: converted SaleAmount to numeric, fixed CampaignID blanks, standardized CampaignID type, and converted SaleDate to datetime.
+2026-05-31 09:06:33,184 INFO Computed total sales by store using groupby and sorted results.
+2026-05-31 09:06:33,214 INFO Computed average sale amount by product using groupby and sorted results.
+2026-05-31 09:06:33,250 INFO Computed total sales by month: extracted SaleMonth period and aggregated SaleAmount.
+2026-05-31 09:06:33,282 INFO Computed numeric-only correlation matrix for the dataset.
+2026-05-31 09:06:33,948 INFO Generated and saved correlation_heatmap.png
+2026-05-31 09:06:34,123 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 09:06:34,137 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 09:06:34,396 INFO Generated and saved total_sales_by_store.png
+2026-05-31 09:06:34,845 INFO Generated and saved distribution_saleamount.png
+2026-05-31 09:06:35,510 INFO Generated and saved saleamount_vs_productid.png
+2026-05-31 09:06:36,144 INFO Generated and saved saleamount_vs_storeid.png
+2026-05-31 09:06:36,279 INFO Printed final insights and conclusions for the analysis.
+2026-05-31 09:06:36,432 INFO Added final summary markdown section to the notebook.
+2026-05-31 09:06:36,466 INFO Added business recommendations markdown section to the notebook.
+2026-05-31 09:06:36,548 INFO ***** Notebook Executed Successfully *****
+2026-05-31 09:10:07,345 INFO ***** Notebook Execution Started Successfully *****
+2026-05-31 09:10:20,237 INFO ***** Notebook Execution Started Successfully *****
+2026-05-31 09:10:20,300 INFO ***** Notebook Execution Started Successfully *****
+2026-05-31 09:10:20,397 INFO Notebook execution started.
+2026-05-31 09:10:20,399 INFO Imported pandas, seaborn, matplotlib, and set visualization theme.
+2026-05-31 09:10:20,432 INFO Notebook execution started.
+2026-05-31 09:10:20,434 INFO Imported pandas, seaborn, matplotlib, and set visualization theme.
+2026-05-31 09:10:20,474 INFO Loaded dataset from ../data/raw/sales_data.csv
+2026-05-31 09:10:20,536 INFO Inspected DataFrame structure: shape, columns, dtypes, missing values, info, and preview.
+2026-05-31 09:10:20,713 INFO Cleaned dataset: converted SaleAmount to numeric, fixed CampaignID blanks, standardized CampaignID type, and converted SaleDate to datetime.
+2026-05-31 09:10:20,783 INFO Computed total sales by store using groupby and sorted results.
+2026-05-31 09:10:20,820 INFO Computed average sale amount by product using groupby and sorted results.
+2026-05-31 09:10:20,856 INFO Computed total sales by month: extracted SaleMonth period and aggregated SaleAmount.
+2026-05-31 09:10:20,889 INFO Computed numeric-only correlation matrix for the dataset.
+2026-05-31 09:10:21,566 INFO Generated and saved correlation_heatmap.png
+2026-05-31 09:10:21,747 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 09:10:21,759 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 09:10:22,003 INFO Generated and saved total_sales_by_store.png
+2026-05-31 09:10:22,459 INFO Generated and saved distribution_saleamount.png
+2026-05-31 09:10:23,101 INFO Generated and saved saleamount_vs_productid.png
+2026-05-31 09:10:23,735 INFO Generated and saved saleamount_vs_storeid.png
+2026-05-31 09:10:23,866 INFO Printed final insights and conclusions for the analysis.
+2026-05-31 09:10:23,972 INFO Added final summary markdown section to the notebook.
+2026-05-31 09:10:24,093 INFO Added business recommendations markdown section to the notebook.
+2026-05-31 09:10:24,128 INFO ***** Notebook Executed Successfully *****
+2026-05-31 09:20:03,416 INFO Notebook execution started.
+2026-05-31 09:20:13,425 INFO Notebook execution started.
+2026-05-31 09:20:16,426 INFO Notebook execution started.
+2026-05-31 09:20:16,564 INFO Loaded dataset from ../data/raw/sales_data.csv
+2026-05-31 09:20:16,622 INFO Inspected DataFrame structure: shape, columns, dtypes, missing values, info, and preview.
+2026-05-31 09:20:16,668 INFO Cleaned dataset: converted SaleAmount to numeric, fixed CampaignID blanks, standardized CampaignID type, and converted SaleDate to datetime.
+2026-05-31 09:20:16,735 INFO Computed total sales by store using groupby and sorted results.
+2026-05-31 09:20:16,773 INFO Computed average sale amount by product using groupby and sorted results.
+2026-05-31 09:20:16,809 INFO Computed total sales by month: extracted SaleMonth period and aggregated SaleAmount.
+2026-05-31 09:20:16,842 INFO Computed numeric-only correlation matrix for the dataset.
+2026-05-31 09:20:17,479 INFO Generated and saved correlation_heatmap.png
+2026-05-31 09:20:17,655 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 09:20:17,663 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 09:20:17,954 INFO Generated and saved total_sales_by_store.png
+2026-05-31 09:20:18,408 INFO Generated and saved distribution_saleamount.png
+2026-05-31 09:20:19,046 INFO Generated and saved saleamount_vs_productid.png
+2026-05-31 09:20:19,675 INFO Generated and saved saleamount_vs_storeid.png
+2026-05-31 09:20:19,804 INFO Printed final insights and conclusions for the analysis.
+2026-05-31 09:20:19,905 INFO Added final summary markdown section to the notebook.
+2026-05-31 09:20:19,940 INFO Added business recommendations markdown section to the notebook.
+2026-05-31 09:20:19,974 INFO ***** Notebook Executed Successfully *****
+2026-05-31 09:24:40,926 INFO Notebook execution started.
+2026-05-31 09:24:41,131 INFO Loaded dataset from ../data/raw/sales_data.csv
+2026-05-31 09:24:41,174 INFO Inspected DataFrame structure: shape, columns, dtypes, missing values, info, and preview.
+2026-05-31 09:24:41,237 INFO Cleaned dataset: converted SaleAmount to numeric, fixed CampaignID blanks, standardized CampaignID type, and converted SaleDate to datetime.
+2026-05-31 09:24:41,298 INFO Computed total sales by store using groupby and sorted results.
+2026-05-31 09:24:41,332 INFO Computed average sale amount by product using groupby and sorted results.
+2026-05-31 09:24:41,367 INFO Computed total sales by month: extracted SaleMonth period and aggregated SaleAmount.
+2026-05-31 09:24:41,400 INFO Computed numeric-only correlation matrix for the dataset.
+2026-05-31 09:24:41,863 INFO Generated and saved correlation_heatmap.png
+2026-05-31 09:24:42,038 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 09:24:42,049 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 09:24:42,288 INFO Generated and saved total_sales_by_store.png
+2026-05-31 09:24:42,754 INFO Generated and saved distribution_saleamount.png
+2026-05-31 09:24:43,435 INFO Generated and saved saleamount_vs_productid.png
+2026-05-31 09:24:44,074 INFO Generated and saved saleamount_vs_storeid.png
+2026-05-31 09:24:44,205 INFO Printed final insights and conclusions for the analysis.
+2026-05-31 09:24:44,267 INFO Added final summary markdown section to the notebook.
+2026-05-31 09:24:44,301 INFO Added business recommendations markdown section to the notebook.
+2026-05-31 09:24:44,359 INFO ***** Notebook Executed Successfully *****
+2026-05-31 09:25:21,745 INFO Notebook execution started.
+2026-05-31 09:25:24,753 INFO Notebook execution started.
+2026-05-31 09:25:24,803 INFO Loaded dataset from ../data/raw/sales_data.csv
+2026-05-31 09:25:24,903 INFO Inspected DataFrame structure: shape, columns, dtypes, missing values, info, and preview.
+2026-05-31 09:25:24,940 INFO Cleaned dataset: converted SaleAmount to numeric, fixed CampaignID blanks, standardized CampaignID type, and converted SaleDate to datetime.
+2026-05-31 09:25:25,013 INFO Computed total sales by store using groupby and sorted results.
+2026-05-31 09:25:25,068 INFO Computed average sale amount by product using groupby and sorted results.
+2026-05-31 09:25:25,109 INFO Computed total sales by month: extracted SaleMonth period and aggregated SaleAmount.
+2026-05-31 09:25:25,141 INFO Computed numeric-only correlation matrix for the dataset.
+2026-05-31 09:25:25,707 INFO Generated and saved correlation_heatmap.png
+2026-05-31 09:25:25,882 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 09:25:25,889 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 09:25:26,132 INFO Generated and saved total_sales_by_store.png
+2026-05-31 09:25:26,566 INFO Generated and saved distribution_saleamount.png
+2026-05-31 09:25:27,213 INFO Generated and saved saleamount_vs_productid.png
+2026-05-31 09:25:27,898 INFO Generated and saved saleamount_vs_storeid.png
+2026-05-31 09:25:28,030 INFO Printed final insights and conclusions for the analysis.
+2026-05-31 09:25:28,091 INFO Added final summary markdown section to the notebook.
+2026-05-31 09:25:28,128 INFO Added business recommendations markdown section to the notebook.
+2026-05-31 09:25:28,161 INFO ***** Notebook Executed Successfully *****
+2026-05-31 09:26:18,696 INFO Notebook execution started.
+2026-05-31 09:26:21,318 INFO Notebook execution started.
+2026-05-31 09:26:21,367 INFO Loaded dataset from ../data/raw/sales_data.csv
+2026-05-31 09:26:21,410 INFO Inspected DataFrame structure: shape, columns, dtypes, missing values, info, and preview.
+2026-05-31 09:26:21,460 INFO Cleaned dataset: converted SaleAmount to numeric, fixed CampaignID blanks, standardized CampaignID type, and converted SaleDate to datetime.
+2026-05-31 09:26:21,556 INFO Computed total sales by store using groupby and sorted results.
+2026-05-31 09:26:21,592 INFO Computed average sale amount by product using groupby and sorted results.
+2026-05-31 09:26:21,628 INFO Computed total sales by month: extracted SaleMonth period and aggregated SaleAmount.
+2026-05-31 09:26:21,661 INFO Computed numeric-only correlation matrix for the dataset.
+2026-05-31 09:26:22,294 INFO Generated and saved correlation_heatmap.png
+2026-05-31 09:26:22,520 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 09:26:22,541 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 09:26:22,831 INFO Generated and saved total_sales_by_store.png
+2026-05-31 09:26:23,300 INFO Generated and saved distribution_saleamount.png
+2026-05-31 09:26:24,006 INFO Generated and saved saleamount_vs_productid.png
+2026-05-31 09:26:24,676 INFO Generated and saved saleamount_vs_storeid.png
+2026-05-31 09:26:24,808 INFO Printed final insights and conclusions for the analysis.
+2026-05-31 09:26:24,904 INFO Added final summary markdown section to the notebook.
+2026-05-31 09:26:24,988 INFO Added business recommendations markdown section to the notebook.
+2026-05-31 09:26:25,031 INFO ***** Notebook Executed Successfully *****

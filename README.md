@@ -6,27 +6,61 @@
 
 > Professional Python project: exploratory data analysis with Jupyter notebooks.
 
-Data analytics requires a variety of skills.
-This course builds capabilities through working projects.
+# Sales Data Exploratory Analysis
 
-In the age of generative AI, durable skills are grounded in real work:
-setting up a professional environment,
-reading and running code,
-understanding the logic,
-and pushing work to a shared repository.
-Each project follows the structure of professional Python projects.
-We learn by doing.
+This project performs a complete exploratory data analysis (EDA) on a retail sales dataset.
+It includes data cleaning, aggregation, visualization, insights, and business recommendations.
+
+## Key Features
+- Data cleaning with type correction and invalid value handling
+- Aggregations (store-level, product-level, monthly sales)
+- Visualizations saved to `docs/images/`
+- Correlation heatmap
+- Regression-based scatterplots
+- Insights and business recommendations
+- Full logging to `project.log` for traceability
+
+## Project Structure
+project/
+│
+├── data/
+│   └── sales_data.csv
+│
+├── docs/
+│   └── images/
+│       ├── correlation_heatmap.png
+│       ├── total_sales_by_store.png
+│       ├── distribution_saleamount.png
+│       ├── saleamount_vs_productid.png
+│       └── saleamount_vs_storeid.png
+│
+├── notebooks/
+│   └── sales_analysis.ipynb
+│
+├── src/
+│   └── datafun/
+│       ├── __init__.py
+│       ├── data_cleaning.py
+│       ├── visualizations.py
+│       └── analysis_utils.py
+│
+├── project.log
+├── pyproject.toml
+├── README.md
+└── LICENSE
+
 
 ## This Project
 
-This project introduces **Exploratory Data Analysis (EDA)** using Jupyter notebooks.
+This project provides a complete **Exploratory Data Analysis (EDA)** workflow for a retail sales dataset.
+It demonstrates how to understand a new dataset quickly and professionally by combining narrative explanation, Python code, and visual analytics inside a Jupyter notebook.
 
-When we encounter a new dataset, we want to explore quickly:
-run checks, view distributions, identify missing values or outliers.
-Notebooks combine Markdown narrative with Python code cells and are ideal for this kind of investigation.
+The analysis includes structured data validation, descriptive statistics, grouped summaries, and multiple visualizations that reveal patterns in store performance, product behavior, and transaction values.
+All generated figures are saved to `docs/images/`, and every major step is recorded in `project.log` to ensure transparency and reproducibility.
 
-You will run the example notebook, read the code and narrative,
-and create your own notebook to explore a different tabular dataset.
+The project also delivers clear insights and business recommendations based on observed trends, making it useful not only as a technical example but also as a practical decision‑support tool.
+Overall, it serves as a model for how to explore, document, and communicate findings from tabular data in a professional analytics environment.
+
 
 ## Working Files
 
@@ -38,7 +72,7 @@ You'll work with just these areas:
 - **pyproject.toml** - update authorship & links
 - **zensical.toml** - update authorship & links
 
-## Instructions (pro-analytics-02)
+## Instructions (Jupyter Notebook)
 
 Follow the
 [step-by-step workflow guide][step-by-step workflow guide](https://justicetefera.github.io/datafun-04-notebooks/)
@@ -50,12 +84,6 @@ to complete:
 4. Phase 4. **Modify**
 5. Phase 5. **Apply**
 
-## Challenges
-
-Challenges are expected.
-Sometimes instructions may not quite match your operating system.
-When issues occur, share screenshots, error messages, and details about what you tried.
-Working through issues is part of implementing professional projects.
 
 ## Success
 
@@ -98,7 +126,7 @@ code .
 
 These are listed for convenience.
 For best results, follow the detailed instructions in
-[pro-analytics-02 guide](https://justicetefera.github.io/datafun-04-notebooks/)
+[pro-analytics-02 guide] (https://justicetefera.github.io/datafun-04-notebooks/)
 to complete:
 
 ```shell
@@ -139,36 +167,31 @@ git push -u origin main
 - Many files are silent helpers. Explore as you like, but nothing is required.
 - You do NOT not to understand everything; understanding builds naturally over time.
 
-## Troubleshooting >>>
+## Example Output
 
-If you see something like this in your terminal: `>>>` or `...`
-You accidentally started Python interactive mode.
-It happens.
-Press `Ctrl+c` (both keys together) or `Ctrl+Z` then `Enter` on Windows.
-
-## Example Output (Can Remove this Section after You Verify)
-
-```shell
-| INFO | EDA | --- Section 9: Summary and next steps ---
-| INFO | EDA | ========================
-| INFO | EDA | SUMMARY
-| INFO | EDA | ========================
-| INFO | EDA | Dataset: penguins
-| INFO | EDA | Original rows: 344
-| INFO | EDA | Clean rows:    342
-| INFO | EDA | Groups found in species: ['Adelie', 'Chinstrap', 'Gentoo']
-| INFO | EDA | Strongest correlation:
-| INFO | EDA |   flipper_length_mm and body_mass_g (~0.87)
-| INFO | EDA | Suggested next step:
-| INFO | EDA |   Model body_mass_g ~ flipper_length_mm with linear regression
-| INFO | EDA | ----- in a script, call plt.show() once at the end to display all charts -----
-| INFO | EDA | EDA workflow complete
-| INFO | EDA | IMPORTANT: This script creates chart windows.
-| INFO | EDA | Close any chart windows and terminate this process with CTRL+c as needed.
-| INFO | EDA | ========================
-| INFO | EDA | Executed successfully!
-| INFO | EDA | ========================
-```
+2026-05-31 08:13:42,024 INFO ***** Notebook Execution Started Successfully *****
+2026-05-31 08:13:42,149 INFO Notebook execution started.
+2026-05-31 08:13:42,152 INFO Imported pandas, seaborn, matplotlib, and set visualization theme.
+2026-05-31 08:13:42,183 INFO Notebook execution started.
+2026-05-31 08:13:42,185 INFO Imported pandas, seaborn, matplotlib, and set visualization theme.
+2026-05-31 08:13:42,226 INFO Loaded dataset from ../data/raw/sales_data.csv
+2026-05-31 08:13:42,265 INFO Inspected DataFrame structure: shape, columns, dtypes, missing values, info, and preview.
+2026-05-31 08:13:42,313 INFO Cleaned dataset: converted SaleAmount to numeric, fixed CampaignID blanks, standardized CampaignID type, and converted SaleDate to datetime.
+2026-05-31 08:13:42,381 INFO Computed total sales by store using groupby and sorted results.
+2026-05-31 08:13:42,414 INFO Computed average sale amount by product using groupby and sorted results.
+2026-05-31 08:13:42,453 INFO Computed total sales by month: extracted SaleMonth period and aggregated SaleAmount.
+2026-05-31 08:13:42,530 INFO Computed numeric-only correlation matrix for the dataset.
+2026-05-31 08:13:43,140 INFO Generated and saved correlation_heatmap.png
+2026-05-31 08:13:43,314 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 08:13:43,328 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-05-31 08:13:43,585 INFO Generated and saved total_sales_by_store.png
+2026-05-31 08:13:44,100 INFO Generated and saved distribution_saleamount.png
+2026-05-31 08:13:44,810 INFO Generated and saved saleamount_vs_productid.png
+2026-05-31 08:13:45,491 INFO Generated and saved saleamount_vs_storeid.png
+2026-05-31 08:13:45,624 INFO Printed final insights and conclusions for the analysis.
+2026-05-31 08:13:45,659 INFO Added final summary markdown section to the notebook.
+2026-05-31 08:13:45,694 INFO Added business recommendations markdown section to the notebook.
+2026-05-31 08:13:45,728 INFO ***** Notebook Executed Successfully *****
 
 ## Findings and Visuals
 
