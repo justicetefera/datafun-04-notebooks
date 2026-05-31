@@ -45,20 +45,28 @@ The dataset includes the following fields:
 
 ## Visualizations
 
-## Findings and Visuals
-This project includes several data visualizations that highlight key patterns, relationships, and trends within the dataset. All visuals are stored in `notebooks/docs/visuals/` and and every major step is recorded in `project.log` to ensure transparency and reproducibility.
 
-
-
-### 🔹 Correlation Heatmap
+### 🔥 Correlation Heatmap
 ![Correlation Heatmap](notebooks/docs/visuals/correlation_heatmap.png)
 
+Shows the strength and direction of relationships between numerical variables.
 
+### 📈 Distribution of Sale Amount
+![Distribution of Sale Amount](notebooks/docs/visuals/distribution_saleamount.png)
 
-### 🔹 Distribution of SaleAmount
-![Distribution of SaleAmount](notebooks/docs/visuals/distribution_saleamount.png)
+Displays how sale amounts are spread across the dataset.
 
+### 🛒 Sale Amount vs Product ID
+![Sale Amount vs Product ID](notebooks/docs/visuals/saleamount_vs_productid.png)
 
+Reveals how different products contribute to overall sales.
 
-### 🔹 SaleAmount vs ProductID
-![SaleAmount vs ProductID](notebooks/docs/visuals/saleamount_vs_productid.png)
+### 🏬 Sale Amount vs Store ID
+![Sale Amount vs Store ID](notebooks/docs/visuals/saleamount_vs_storeid.png)
+
+Compares sales performance across stores.
+
+### 💵 Total Sales by Store
+![Total Sales by Store](notebooks/docs/visuals/total_sales_by_store.png)
+
+Summarizes total revenue per store.
