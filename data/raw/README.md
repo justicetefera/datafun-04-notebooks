@@ -91,23 +91,11 @@ Overall, it serves as a model for how to explore, document, and communicate find
 
 ## Visualizations
 
-This project includes several key visualizations that help reveal patterns in the sales dataset.
-All images are generated programmatically and saved to `docs/images/`.
-
 ### 🔹 Correlation Heatmap
-Shows the strength of relationships between numerical variables in the dataset.
-This helps identify which features are most strongly associated with SaleAmount, guiding deeper analysis and feature engineering.
-
-![Correlation Heatmap](docs/visuals/correlation_heatmap.png)
+![Correlation Heatmap](notebooks/docs/correlation_heatmap.png)
 
 ### 🔹 Distribution of SaleAmount
-Displays how transaction values are spread across all sales.
-The distribution reveals a right‑skewed pattern, indicating that most purchases are low‑value while a smaller number of high‑value transactions contribute heavily to total revenue.
+![Distribution of SaleAmount](notebooks/docs/distribution_saleamount.png)
 
-![Distribution of SaleAmount](docs/visuals/distribution_saleamount.png)
-
-### 🔹 SaleAmount vs ProductID (Regression Line)
-Illustrates how sale amounts vary across different products.
-The regression line highlights product‑level trends, helping identify which products consistently generate higher sales and which may require further investigation.
-
-docs/visuals/saleamount_vs_productid.png
+### 🔹 SaleAmount vs ProductID
+![SaleAmount vs ProductID](notebooks/docs/saleamount_vs_productid.png)
