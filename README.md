@@ -29,7 +29,7 @@ This project provides a complete **Exploratory Data Analysis (EDA)** workflow fo
 It demonstrates how to understand a new dataset quickly and professionally by combining narrative explanation, Python code, and visual analytics inside a Jupyter notebook.
 
 The analysis includes structured data validation, descriptive statistics, grouped summaries, and multiple visualizations that reveal patterns in store performance, product behavior, and transaction values.
-All generated figures are saved to `notebooks/docs/visuals`, and every major step is recorded in `project.log` to ensure transparency and reproducibility.
+All generated figures are saved to `notebooks/docs/images`, and every major step is recorded in `project.log` to ensure transparency and reproducibility.
 
 The project also delivers clear insights and business recommendations based on observed trends, making it useful not only as a technical example but also as a practical decision‑support tool.
 Overall, it serves as a model for how to explore, document, and communicate findings from tabular data in a professional analytics environment.
@@ -70,16 +70,16 @@ uv sync --extra dev --extra docs --upgrade
 
 
 ### 🔥 Correlation Heatmap
-![Correlation Heatmap](notebooks/docs/visuals/correlation_heatmap.png)
+![Correlation Heatmap](notebooks/docs/images/correlation_heatmap.png)
 
 Shows the strength and direction of relationships between numerical variables.
 
 ### 📈 Distribution of Sale Amount
-![Distribution of Sale Amount](notebooks/docs/visuals/distribution_saleamount.png)
+![Distribution of Sale Amount](notebooks/docs/images/distribution_saleamount.png)
 
 Displays how sale amounts are spread across the dataset.
 
 ### 🛒 Sale Amount vs Product ID
-![Sale Amount vs Product ID](notebooks/docs/visuals/saleamount_vs_productid.png)
+![Sale Amount vs Product ID](notebooks/docs/images/saleamount_vs_productid.png)
 
 Reveals how different products contribute to overall sales.
