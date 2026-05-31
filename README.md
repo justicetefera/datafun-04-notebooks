@@ -37,8 +37,6 @@ Overall, it serves as a model for how to explore, document, and communicate find
 
 ## Working Files
 
-
-
 - **docs/** - the project narrative and documentation
 - **src/datafun** - supporting Python module
 - **notebooks/** - where the analysis happens
@@ -51,9 +49,6 @@ Overall, it serves as a model for how to explore, document, and communicate find
 ## Success
 
 
-========================
-Executed successfully!
-========================
 ```
 
 
@@ -88,13 +83,3 @@ Displays how sale amounts are spread across the dataset.
 ![Sale Amount vs Product ID](notebooks/docs/visuals/saleamount_vs_productid.png)
 
 Reveals how different products contribute to overall sales.
-
-### 🏬 Sale Amount vs Store ID
-![Sale Amount vs Store ID](notebooks/docs/visuals/saleamount_vs_storeid.png)
-
-Compares sales performance across stores.
-
-### 💵 Total Sales by Store
-![Total Sales by Store](notebooks/docs/visuals/total_sales_by_store.png)
-
-Summarizes total revenue per store.
