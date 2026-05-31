@@ -173,11 +173,8 @@ git push -u origin main
 
 ## Findings and Visuals
 
-### 🔹 Correlation Heatmap
-![Correlation Heatmap](notebooks/docs/correlation_heatmap.png)
+![Correlation Heatmap](notebooks/docs/visuals/correlation_heatmap.png)
 
-### 🔹 Distribution of SaleAmount
-![Distribution of SaleAmount](notebooks/docs/distribution_saleamount.png)
+![Distribution of SaleAmount](notebooks/docs/visuals/distribution_saleamount.png)
 
-### 🔹 SaleAmount vs ProductID
-![SaleAmount vs ProductID](notebooks/docs/saleamount_vs_productid.png)
+![SaleAmount vs ProductID](notebooks/docs/visuals/saleamount_vs_productid.png)

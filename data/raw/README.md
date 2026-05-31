@@ -14,40 +14,12 @@ It includes data cleaning, aggregation, visualization, insights, and business re
 ## Key Features
 - Data cleaning with type correction and invalid value handling
 - Aggregations (store-level, product-level, monthly sales)
-- Visualizations saved to `docs/images/`
+- Visualizations saved to `notebooks/docs/visuals/`
 - Correlation heatmap
 - Regression-based scatterplots
 - Insights and business recommendations
 - Full logging to `project.log` for traceability
 
-## Project Structure
-project/
-│
-├── data/
-│   └── sales_data.csv
-│
-├── docs/
-│   └── images/
-│       ├── correlation_heatmap.png
-│       ├── total_sales_by_store.png
-│       ├── distribution_saleamount.png
-│       ├── saleamount_vs_productid.png
-│       └── saleamount_vs_storeid.png
-│
-├── notebooks/
-│   └── sales_analysis.ipynb
-│
-├── src/
-│   └── datafun/
-│       ├── __init__.py
-│       ├── data_cleaning.py
-│       ├── visualizations.py
-│       └── analysis_utils.py
-│
-├── project.log
-├── pyproject.toml
-├── README.md
-└── LICENSE
 
 
 ## This Project
@@ -56,10 +28,14 @@ This project provides a complete **Exploratory Data Analysis (EDA)** workflow fo
 It demonstrates how to understand a new dataset quickly and professionally by combining narrative explanation, Python code, and visual analytics inside a Jupyter notebook.
 
 The analysis includes structured data validation, descriptive statistics, grouped summaries, and multiple visualizations that reveal patterns in store performance, product behavior, and transaction values.
-All generated figures are saved to `docs/images/`, and every major step is recorded in `project.log` to ensure transparency and reproducibility.
 
 The project also delivers clear insights and business recommendations based on observed trends, making it useful not only as a technical example but also as a practical decision‑support tool.
 Overall, it serves as a model for how to explore, document, and communicate findings from tabular data in a professional analytics environment.
+
+## 📦 Dataset Description
+The analysis in this project is based on a structured retail sales dataset representing transactions from four distinct stores (StoreID 401–404). The dataset captures individual sales events, product information, customer identifiers, and optional marketing campaign references. It is designed to reflect the operational behavior of a small multi‑store retail network and provides enough variation to support meaningful exploratory analysis.
+
+The dataset includes the following fields:
 
 
 
@@ -70,15 +46,19 @@ Overall, it serves as a model for how to explore, document, and communicate find
 ## Visualizations
 
 ## Findings and Visuals
+This project includes several data visualizations that highlight key patterns, relationships, and trends within the dataset. All visuals are stored in `notebooks/docs/visuals/` and and every major step is recorded in `project.log` to ensure transparency and reproducibility.
+
+
 
 ### 🔹 Correlation Heatmap
+![Correlation Heatmap](notebooks/docs/visuals/correlation_heatmap.png)
 
-![Correlation Heatmap](notebooks/docs/correlation_heatmap.png)
+
 
 ### 🔹 Distribution of SaleAmount
+![Distribution of SaleAmount](notebooks/docs/visuals/distribution_saleamount.png)
 
-![Distribution of SaleAmount](notebooks/docs/distribution_saleamount.png)
+
 
 ### 🔹 SaleAmount vs ProductID
-
-![SaleAmount vs ProductID](notebooks/docs/saleamount_vs_productid.png)
+![SaleAmount vs ProductID](notebooks/docs/visuals/saleamount_vs_productid.png)
