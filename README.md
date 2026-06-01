@@ -49,52 +49,48 @@ Below is a refined and professionally expanded explanation of each visualization
 - **pyproject.toml** - update authorship & links
 - **zensical.toml** - update authorship & links
 
-## Instructions (Jupyter Notebook)
+# Instructions (Jupyter Notebook)
 
-<details>
-<summary><strong>Usage Instructions (Click to Expand)</strong></summary>
-
-<br>
-
-## 1. Activate the Project Environment
+# 1. Activate the Project Environment
 Update uv, pin Python, sync dependencies, then activate your virtual environment.
+
 uv self update
 uv python pin 3.14
 uv sync --extra dev --extra docs --upgrade
 
 # Windows PowerShell
 .\.venv\Scripts\activate
-# macOS / Linux
-source .venv/bin/activate
 
 # macOS / Linux
 source .venv/bin/activate
 
-## 2. Install required dependencies
+# 2. Install required dependencies
 Install all required Python packages.
 
+```bash
 pip install -r requirements.txt
+```
 
-## 3. Run the Sales Analysis Module
+# 3. Run the Sales Analysis Module
 Execute the main analysis script to perform data cleaning, aggregation, and visualization.
 
+```bash
 python -m src.sales_analysis
-
-## 4. Open the Jupyter Notebook
+```
+# 4. Open the Jupyter Notebook
 To explore the analysis interactively, open the primary notebook.
 
+```bash
 jupyter notebook notebooks/eda_sales_data.ipynb
+```
 
-## 5. Review Output Files
+# 5. Review Output Files
 After running the analysis, you can find:
+
 - Generated charts in notebooks/docs/images/
--  Logs in project.log
+- Logs in `project.log`
 - Cleaned or transformed data (if applicable) in data/processed/
 
-</details>
-
-
-```md
 
 ## Success
 
@@ -107,6 +103,7 @@ After running the analysis, you can find:
 🔥![Correlation Heatmap](notebooks/docs/images/correlation_heatmap.png)
 
 Shows the strength and direction of relationships between numerical variables. This visualization helps identify which features move together, which ones oppose each other, and which variables have little to no relationship. It supports decisions about feature selection, model preparation, and deeper statistical analysis by highlighting meaningful patterns and potential multicollinearity.
+
 📈![Distribution of Sale Amount](notebooks/docs/images/distribution_saleamount.png)
 Displays how sale amounts are spread across the dataset. This chart reveals the overall shape of customer spending behavior, including skewness, concentration of low‑value transactions, and the presence of unusually high sales. Understanding this distribution helps analysts detect outliers, evaluate revenue patterns, and determine whether transformations or normalization may be needed.
 
