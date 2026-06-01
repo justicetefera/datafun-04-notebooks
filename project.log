@@ -1306,3 +1306,35 @@ bill_depth_mm           -0.235053       1.000000          -0.583851    -0.471916
 flipper_length_mm        0.656181      -0.583851           1.000000     0.871202
 body_mass_g              0.595110      -0.471916           0.871202     1.000000
 2026-05-30 11:09:27 | INFO | EDA-NB | ---------Visualize Correlation Matrix as a Heatmap---------------
+2026-06-01 17:25:53,586 INFO === Sales Data EDA Script Started ===
+2026-06-01 17:25:53,603 INFO Loading dataset from data/raw/sales_data.csv
+2026-06-01 17:25:53,652 INFO Loaded dataset with shape: (2001, 7)
+2026-06-01 17:25:53,652 INFO Cleaning dataset...
+2026-06-01 17:25:53,719 INFO Data cleaning complete.
+2026-06-01 17:25:53,726 INFO Updated dtypes:
+TransactionID             int64
+SaleDate         datetime64[us]
+CustomerID                int64
+ProductID                 int64
+StoreID                   int64
+CampaignID                Int64
+SaleAmount              float64
+dtype: object
+2026-06-01 17:25:53,726 INFO Computing summary statistics...
+2026-06-01 17:25:53,778 INFO Summary statistics:
+       TransactionID             SaleDate   CustomerID    ProductID      StoreID  CampaignID   SaleAmount
+count    2001.000000                 2000  2001.000000  2001.000000  2001.000000      2000.0  2000.000000
+mean     1000.002999  2025-05-04 00:00:00  1103.897051  2050.440280   402.545227      1.5035  1014.269255
+min         1.000000  2025-05-04 00:00:00  1000.000000  2000.000000   401.000000         0.0     0.000000
+25%       500.000000  2025-05-04 00:00:00  1046.000000  2025.000000   402.000000         0.0   251.172500
+50%      1000.000000  2025-05-04 00:00:00  1099.000000  2051.000000   403.000000         2.0   731.260000
+75%      1500.000000  2025-05-04 00:00:00  1150.000000  2076.000000   404.000000         2.0  1512.990000
+max      2000.000000  2025-05-04 00:00:00  9999.000000  2099.000000   404.000000         3.0  6619.200000
+std       577.778087                  NaN   207.519764    28.586493     1.118963    1.120543  1012.721489
+2026-06-01 17:25:53,779 INFO Computing grouped summaries...
+2026-06-01 17:25:53,784 INFO Grouped summaries computed successfully.
+2026-06-01 17:25:53,784 INFO Generating visualizations...
+2026-06-01 17:25:58,012 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-01 17:25:58,061 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-06-01 17:25:59,877 INFO All visualizations generated and saved.
+2026-06-01 17:25:59,878 INFO === Sales Data EDA Script Completed Successfully ===
