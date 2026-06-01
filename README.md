@@ -1,15 +1,15 @@
-### Jupyter Notebooks
+# Jupyter Notebooks
 
 [![Workflow Guide](https://img.shields.io/badge/Pro--Guide-pro--analytics--02-green)](https://justicetefera.github.io/datafun-04-notebooks/workflow-b-apply-example-project/)
 [![Python 3.14](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](./pyproject.toml)
 [![MIT](https://img.shields.io/badge/license-see%20LICENSE-yellow.svg)](./LICENSE)
 
 > Professional Python project: exploratory data analysis with Jupyter notebooks.
-#### Sales Data Exploratory Analysis
+# Sales Data Exploratory Analysis
 
 This project delivers a comprehensive Exploratory Data Analysis (EDA) of a multi‑store retail sales dataset. It integrates rigorous data preparation, structured statistical exploration, and a suite of visual analytics to uncover operational patterns, product performance behaviors, and revenue‑driving factors across the business.
 
-### Key Features
+# Key Features
 - **Data cleaning** with type correction, missing‑value handling, and validation of inconsistent entries
 - **Aggregations** with type correction, missing‑value handling, and validation of inconsistent entries
 - **Visual analytics** stored in `notebooks/docs/images/`
@@ -18,7 +18,7 @@ This project delivers a comprehensive Exploratory Data Analysis (EDA) of a multi
 - **Insights and business recommendations** grounded in observed patterns
 - Full logging to `project.log` for traceability
 
-## Project Overview
+# Project Overview
 
 This project provides a structured, end‑to‑end EDA workflow designed to help analysts, data scientists, and decision‑makers quickly understand the behavior of a retail dataset. It blends narrative explanation, modular Python code, and high‑quality visualizations to create a clear, professional analytical story.
 
@@ -33,11 +33,11 @@ This project provides a structured, end‑to‑end EDA workflow designed to help
 Overall, this project serves as a model for how to explore, document, and communicate findings from tabular retail data in a polished analytics environment.
 
 
-## 📦 Dataset Description
+# 📦 Dataset Description
 
 The analysis in this project is based on a structured retail sales dataset representing transactions from four distinct stores (StoreID 401–404). The dataset captures individual sales events, product information, customer identifiers, and optional marketing campaign references. It is designed to reflect the operational behavior of a small multi‑store retail network and provides meaningful exploration of revenue patterns, product performance, and store‑level behavior.
 
-## 📊 Visual Representations
+# 📊 Visual Representations
 Below is a refined and professionally expanded explanation of each visualization, written to align with industry‑standard analytical reporting and to clearly communicate the purpose and value of each chart included in the analysis.
 
 
@@ -49,56 +49,62 @@ Below is a refined and professionally expanded explanation of each visualization
 - **pyproject.toml** - update authorship & links
 - **zensical.toml** - update authorship & links
 
-# Instructions (Jupyter Notebook)
+## Instructions (Jupyter Notebook)
 
-# 1. Activate the Project Environment
+<details>
+<summary><strong>Click to Expand</strong></summary>
+
+<br>
+
+### 1. Activate the Project Environment
 Update uv, pin Python, sync dependencies, then activate your virtual environment.
 
 uv self update
 uv python pin 3.14
 uv sync --extra dev --extra docs --upgrade
 
-# Windows PowerShell
+### Windows PowerShell
 .\.venv\Scripts\activate
 
-# macOS / Linux
+### macOS / Linux
 source .venv/bin/activate
 
-# 2. Install required dependencies
+### 2. Install required dependencies
 Install all required Python packages.
 
 ```bash
 pip install -r requirements.txt
 ```
 
-# 3. Run the Sales Analysis Module
+### 3. Run the Sales Analysis Module
 Execute the main analysis script to perform data cleaning, aggregation, and visualization.
 
 ```bash
 python -m src.sales_analysis
 ```
-# 4. Open the Jupyter Notebook
+### 4. Open the Jupyter Notebook
 To explore the analysis interactively, open the primary notebook.
 
 ```bash
 jupyter notebook notebooks/eda_sales_data.ipynb
 ```
 
-# 5. Review Output Files
+### 5. Review Output Files
 After running the analysis, you can find:
 
 - Generated charts in notebooks/docs/images/
 - Logs in `project.log`
 - Cleaned or transformed data (if applicable) in data/processed/
 
+</details>
 
-## Success
+# Success
 
-# Project log output
+## Project log output
 ![Project Log Output](notebooks/docs/images/project_log_output.png)
 
 
-## Visualizations
+# Visualizations
 
 🔥![Correlation Heatmap](notebooks/docs/images/correlation_heatmap.png)
 
