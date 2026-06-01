@@ -1,15 +1,15 @@
-### Jupyter Notebooks
+# Jupyter Notebooks
 
 [![Workflow Guide](https://img.shields.io/badge/Pro--Guide-pro--analytics--02-green)](https://justicetefera.github.io/datafun-04-notebooks/workflow-b-apply-example-project/)
 [![Python 3.14](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](./pyproject.toml)
 [![MIT](https://img.shields.io/badge/license-see%20LICENSE-yellow.svg)](./LICENSE)
 
 > Professional Python project: exploratory data analysis with Jupyter notebooks.
-#### Sales Data Exploratory Analysis
+# Sales Data Exploratory Analysis
 
 This project delivers a comprehensive Exploratory Data Analysis (EDA) of a multi‑store retail sales dataset. It integrates rigorous data preparation, structured statistical exploration, and a suite of visual analytics to uncover operational patterns, product performance behaviors, and revenue‑driving factors across the business.
 
-### Key Features
+# Key Features
 - **Data cleaning** with type correction, missing‑value handling, and validation of inconsistent entries
 - **Aggregations** with type correction, missing‑value handling, and validation of inconsistent entries
 - **Visual analytics** stored in `notebooks/docs/images/`
@@ -18,7 +18,7 @@ This project delivers a comprehensive Exploratory Data Analysis (EDA) of a multi
 - **Insights and business recommendations** grounded in observed patterns
 - Full logging to `project.log` for traceability
 
-## Project Overview
+# Project Overview
 
 This project provides a structured, end‑to‑end EDA workflow designed to help analysts, data scientists, and decision‑makers quickly understand the behavior of a retail dataset. It blends narrative explanation, modular Python code, and high‑quality visualizations to create a clear, professional analytical story.
 
@@ -33,7 +33,7 @@ This project provides a structured, end‑to‑end EDA workflow designed to help
 Overall, this project serves as a model for how to explore, document, and communicate findings from tabular retail data in a polished analytics environment.
 
 
-## 📦 Dataset Description
+# 📦 Dataset Description
 
 The analysis in this project is based on a structured retail sales dataset representing transactions from four distinct stores (StoreID 401–404). The dataset captures individual sales events, product information, customer identifiers, and optional marketing campaign references. It is designed to reflect the operational behavior of a small multi‑store retail network and provides meaningful exploration of revenue patterns, product performance, and store‑level behavior.
 
