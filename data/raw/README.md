@@ -1,7 +1,7 @@
 # Jupyter Notebooks
 
-[![Python 3.14](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](../../pyproject.toml)
-[![MIT](https://img.shields.io/badge/license-see%20LICENSE-yellow.svg)](../../LICENSE)
+[![Python 3.14](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)]
+[![MIT](https://img.shields.io/badge/license-see%20LICENSE-yellow.svg)]
 
 > Professional Python project: exploratory data analysis with Jupyter notebooks.
 # Sales Data Exploratory Analysis
