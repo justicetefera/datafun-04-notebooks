@@ -37,17 +37,6 @@ Overall, this project serves as a model for how to explore, document, and commun
 
 The analysis in this project is based on a structured retail sales dataset representing transactions from four distinct stores (StoreID 401–404). The dataset captures individual sales events, product information, customer identifiers, and optional marketing campaign references. It is designed to reflect the operational behavior of a small multi‑store retail network and provides meaningful exploration of revenue patterns, product performance, and store‑level behavior.
 
-# 📊 Visual Representations
-Below is a refined and professionally expanded explanation of each visualization, written to align with industry‑standard analytical reporting and to clearly communicate the purpose and value of each chart included in the analysis.
-
-
-## Working Files
-
-- **docs/** - the project narrative and documentation
-- **src/datafun** - supporting Python module
-- **notebooks/** - where the analysis happens
-- **pyproject.toml** - update authorship & links
-- **zensical.toml** - update authorship & links
 
 ## Instructions (Jupyter Notebook)
 
@@ -98,20 +87,21 @@ After running the analysis, you can find:
 
 </details>
 
-# Success
-
 ## Project log output
 ![Project Log Output](notebooks/docs/images/project_log_output.png)
 
 
-# Visualizations
+# 📊 Visual Representations
+Below is a refined and professionally expanded explanation of each visualization, written to align with industry‑standard analytical reporting and to clearly communicate the purpose and value of each chart included in the analysis.
 
 🔥![Correlation Heatmap](notebooks/docs/images/correlation_heatmap.png)
 
 Shows the strength and direction of relationships between numerical variables. This visualization helps identify which features move together, which ones oppose each other, and which variables have little to no relationship. It supports decisions about feature selection, model preparation, and deeper statistical analysis by highlighting meaningful patterns and potential multicollinearity.
 
 📈![Distribution of Sale Amount](notebooks/docs/images/distribution_saleamount.png)
+
 Displays how sale amounts are spread across the dataset. This chart reveals the overall shape of customer spending behavior, including skewness, concentration of low‑value transactions, and the presence of unusually high sales. Understanding this distribution helps analysts detect outliers, evaluate revenue patterns, and determine whether transformations or normalization may be needed.
 
 🛒![Sale Amount vs Product ID](notebooks/docs/images/saleamount_vs_productid.png)
+
 Reveals how different products contribute to overall sales. This scatterplot highlights which products consistently generate higher revenue, which ones underperform, and whether certain product categories cluster around specific price or sale ranges. It supports inventory planning, pricing strategy, and product‑level performance evaluation.
