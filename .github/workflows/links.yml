@@ -45,6 +45,7 @@ jobs:
         with:
           args: >
             --config .github/lychee.toml
+            --exclude-paths "**/.venv/**"
             --verbose
             --no-progress
             './**/*.md'
