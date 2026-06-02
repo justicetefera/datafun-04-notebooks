@@ -1,7 +1,7 @@
 # Jupyter Notebooks
 
-[![Python 3.14](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)]
-[![MIT](https://img.shields.io/badge/license-see%20LICENSE-yellow.svg)]
+[![Python 3.14](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](https://www.python.org/)
+[![MIT](https://img.shields.io/badge/license-see%20LICENSE-yellow.svg)](../../LICENSE)
 
 ## Project Files
 
@@ -10,9 +10,8 @@
 
 [🌐 Return to Project Website](https://justicetefera.github.io/datafun-04-notebooks/)
 
-
-
 > Professional Python project: exploratory data analysis with Jupyter notebooks.
+
 # Sales Data Exploratory Analysis
 
 This project delivers a comprehensive Exploratory Data Analysis (EDA) of a multi‑store retail sales dataset. It integrates rigorous data preparation, structured statistical exploration, and a suite of visual analytics to uncover operational patterns, product performance behaviors, and revenue‑driving factors across the business.
@@ -40,11 +39,9 @@ This project provides a structured, end‑to‑end EDA workflow designed to help
 
 Overall, this project serves as a model for how to explore, document, and communicate findings from tabular retail data in a polished analytics environment.
 
-
 # 📦 Dataset Description
 
 The analysis in this project is based on a structured retail sales dataset representing transactions from four distinct stores (StoreID 401–404). The dataset captures individual sales events, product information, customer identifiers, and optional marketing campaign references. It is designed to reflect the operational behavior of a small multi‑store retail network and provides meaningful exploration of revenue patterns, product performance, and store‑level behavior.
-
 
 ## Visualizations
 
@@ -55,4 +52,4 @@ Shows the strength and direction of relationships between numerical variables.
 Displays how sale amounts are spread across the dataset.
 
 ![SaleAmount vs ProductID](../../notebooks/docs/images/saleamount_vs_productid.png)
-Reveals how different products contribute to overall sales.....here is the top of the projec
+Reveals how different products contribute to overall sales.
