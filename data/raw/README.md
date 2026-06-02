@@ -4,14 +4,10 @@
 [![Python 3.14](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](https://www.python.org/)
 [![MIT](https://img.shields.io/badge/license-see%20LICENSE-yellow.svg)](../../LICENSE)
 
-## Project Files
-
-- [LICENSE](../../LICENSE)
-- [pyproject.toml](../../pyproject.toml)
-
 [🌐 Return to Project Website](https://justicetefera.github.io/datafun-04-notebooks/)
 
-## Sales Data Exploratory Analysis
+
+# Sales Data Exploratory Analysis
 
 This project delivers a comprehensive Exploratory Data Analysis (EDA) of a multi‑store retail sales dataset. It integrates rigorous data preparation, structured statistical exploration, and a suite of visual analytics to uncover operational patterns, product performance behaviors, and revenue‑driving factors across the business.
 
