@@ -1,22 +1,21 @@
 # Jupyter Notebooks
+> Professional Python project: exploratory data analysis with Jupyter notebooks.
 
 [![Python 3.14](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](https://www.python.org/)
-[![MIT](https://img.shields.io/badge/license-see%20LICENSE-yellow.svg)](../../LICENSE)
+[![MIT](https://img.shields.io/badge/license-see%20LICENSE-yellow.svg)](LICENSE)
 
 ## Project Files
 
-- [LICENSE](../../LICENSE)
-- [pyproject.toml](../../pyproject.toml)
+- [LICENSE](LICENSE)
+- [pyproject.toml](pyproject.toml)
 
-[🌐 Return to Project Website](https://justicetefera.github.io/datafun-04-notebooks/)
+[🌐 View Project Website](https://justicetefera.github.io/datafun-04-notebooks/)
 
-> Professional Python project: exploratory data analysis with Jupyter notebooks.
-
-# Sales Data Exploratory Analysis
+## Sales Data Exploratory Analysis
 
 This project delivers a comprehensive Exploratory Data Analysis (EDA) of a multi‑store retail sales dataset. It integrates rigorous data preparation, structured statistical exploration, and a suite of visual analytics to uncover operational patterns, product performance behaviors, and revenue‑driving factors across the business.
 
-# Key Features
+## Key Features
 - **Data cleaning** with type correction, missing‑value handling, and validation of inconsistent entries
 - **Aggregations** with type correction, missing‑value handling, and validation of inconsistent entries
 - **Visual analytics** stored in `notebooks/docs/images/`
@@ -24,7 +23,6 @@ This project delivers a comprehensive Exploratory Data Analysis (EDA) of a multi
 - **Regression‑based scatterplots** for trend identification
 - **Insights and business recommendations** grounded in observed patterns
 - Full logging to `project.log` for traceability
-
 # Project Overview
 
 This project provides a structured, end‑to‑end EDA workflow designed to help analysts, data scientists, and decision‑makers quickly understand the behavior of a retail dataset. It blends narrative explanation, modular Python code, and high‑quality visualizations to create a clear, professional analytical story.
