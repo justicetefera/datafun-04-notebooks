@@ -7,6 +7,9 @@
 - [LICENSE](./LICENSE)
 - [pyproject.toml](./pyproject.toml)
 
+[🌐 View Project Website](https://justicetefera.github.io/datafun-04-notebooks/)
+
+
 > Professional Python project: exploratory data analysis with Jupyter notebooks.
 # Sales Data Exploratory Analysis
 

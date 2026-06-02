@@ -8,8 +8,7 @@
 - [LICENSE](../../LICENSE)
 - [pyproject.toml](../../pyproject.toml)
 
-https://[justicetefera.github.io/notebooks-04] (https://justicetefera.github.io/datafun-04-notebooks/)workflow-b-apply-example-project
-
+[🌐 Return to Project Website](https://justicetefera.github.io/datafun-04-notebooks/)
 
 
 

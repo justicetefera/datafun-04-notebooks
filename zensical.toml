@@ -7,14 +7,15 @@
 # It is used in this project to streamline documentation and provide better support for docstring generation.
 
 [project]
-site_name = "Project Documentation" # CUSTOM: Name of the documentation site."
+site_name = "Project Documentation"
 site_url = "https://justicetefera.github.io/datafun-04-notebooks/"
-repo_url = "https://justicetefera.github.io/datafun-04-notebooks"
-repo_name = "justicetefera/datafun-04-notebooks "
+repo_url = "https://github.com/justicetefera/datafun-04-notebooks"
+repo_name = "justicetefera/datafun-04-notebooks"
 site_description = "Project Documentation"
-docs_dir = "docs" # source directory for documentation markdown files
-site_dir = "site" # output directory for generated site (ignored by Git; not in repo)
-edit_uri = "edit/main/docs/" # "Edit this page" links (GitHub)
+docs_dir = "docs"
+site_dir = "site"
+edit_uri = "edit/main/docs/"
+
 
 [project.extra]
 # WHY: Social links provide easy access to project repositories and profiles.
